@@ -59,7 +59,7 @@ public class MazePlayerController : MonoBehaviour
         }
         if (other.gameObject.tag == "Finish")
         {
-            if (keyCount == 2)
+            if (keyCount == 3)
             {   
                 other.gameObject.SetActive(false);
                 winUI.SetActive(true);
